@@ -1,0 +1,6 @@
+streamlit
+langgraph
+langchain-openai
+python-dotenv
+pydantic
+open_router"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"
