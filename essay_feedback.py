@@ -1,16 +1,12 @@
 import streamlit as st
 import os
 import operator
-from dotenv import load_dotenv
 from typing import TypedDict, Annotated
 from pydantic import BaseModel, Field
 from langgraph.graph import StateGraph, START, END
 from langchain_openai import ChatOpenAI
 
-# -----------------------------
-# Load environment
-# -----------------------------
-load_dotenv()
+
 
 # -----------------------------
 # Structured Schema
@@ -157,3 +153,4 @@ if st.button("🚀 Evaluate Essay"):
 
 st.markdown("---")
 st.write("⚡ Powered by LangGraph + OpenRouter + Streamlit")
+
